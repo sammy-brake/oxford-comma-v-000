@@ -10,7 +10,7 @@ new_string << array.join(" and ")
 else 
  last_word = array.pop
   new_string = array.join(",")
-  new_string.pop
+  
   new_string << " and #{last_word}."
   
   
