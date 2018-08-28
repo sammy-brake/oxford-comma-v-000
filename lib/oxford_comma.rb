@@ -11,7 +11,7 @@ else
  last_word = array.pop
   new_string = array.join(", ")
   
-  new_string << " and #{last_word}."
+  new_string << ", and #{last_word}."
   
   
 
